@@ -1,0 +1,10 @@
+target
+.idea
+logs
+.DS_Store
+.history
+logs
+*/build
+*/production.conf
+.ipynb_checkpoints
+datac
