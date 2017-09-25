@@ -1,0 +1,46 @@
+testOnly IngestionStdSpec
+compile
+exit
+testOnly IngestionStdSpec
+exit
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+exit
+test
+exit
+test
+exit
+test
+compile
+test
+exit
+test
+exit
+compile
+test
+exit
+test
+testOnly DataMockSpec
+exit
+testOnly DataMockSpec
+testOnly IngestionStdSpec
+testOnly DataMockSpec
+exit
+testOnly DataMockSpec
+testOnly IngestionStdSpec
+exit
+test
+exit
+test
+test DataMockSpec
+specs2
+specs2.run
+specs2.run(IngestionStdSpec)
+exit

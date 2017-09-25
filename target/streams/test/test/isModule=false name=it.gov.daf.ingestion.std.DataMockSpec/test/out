@@ -1,0 +1,10 @@
+[0m[[0minfo[0m] [0mDataMockSpec[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mgetData should:  should[0m
+[0m[[0minfo[0m] [0m  [32m+[0m return a list of list with param: 'ds_luoghi': [0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mTotal for specification DataMockSpec[0m
+[0m[[0minfo[0m] [0m[36mFinished in 339 ms[0m[0m
+[0m[[0minfo[0m] [0m[36m[0m[36m1 example, 0 failure, 0 error[0m[0m
+[0m[[0minfo[0m] [0m[0m

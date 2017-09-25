@@ -1,0 +1,120 @@
+[0m[[0minfo[0m] [0mIngestionStdSpec[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[31merror[0m] [0m[31m![0m Ingestion->Init works: [0m
+[0m[[31merror[0m] [0m java.lang.RuntimeException: java.lang.RuntimeException: class org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback not org.apache.hadoop.security.GroupMappingServiceProvider (Configuration.java:1752)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.conf.Configuration.getClass(Configuration.java:1752)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.Groups.<init>(Groups.java:55)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.Groups.getUserToGroupsMappingService(Groups.java:182)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:235)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:214)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.getLoginUser(UserGroupInformation.java:669)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:571)[0m
+[0m[[31merror[0m] [0morg.apache.spark.util.Utils$$anonfun$getCurrentUserName$1.apply(Utils.scala:2245)[0m
+[0m[[31merror[0m] [0morg.apache.spark.util.Utils$$anonfun$getCurrentUserName$1.apply(Utils.scala:2245)[0m
+[0m[[31merror[0m] [0morg.apache.spark.util.Utils$.getCurrentUserName(Utils.scala:2245)[0m
+[0m[[31merror[0m] [0morg.apache.spark.SparkContext.<init>(SparkContext.scala:297)[0m
+[0m[[31merror[0m] [0morg.apache.spark.SparkContext$.getOrCreate(SparkContext.scala:2256)[0m
+[0m[[31merror[0m] [0morg.apache.spark.sql.SparkSession$Builder$$anonfun$8.apply(SparkSession.scala:831)[0m
+[0m[[31merror[0m] [0morg.apache.spark.sql.SparkSession$Builder$$anonfun$8.apply(SparkSession.scala:823)[0m
+[0m[[31merror[0m] [0morg.apache.spark.sql.SparkSession$Builder.getOrCreate(SparkSession.scala:823)[0m
+[0m[[31merror[0m] [0mit.gov.daf.ingestion.std.SparkCntx$class.foreach(IngestionStdSpec.scala:38)[0m
+[0m[[31merror[0m] [0mit.gov.daf.ingestion.std.IngestionStdSpec.foreach(IngestionStdSpec.scala:9)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.conf.Configuration.getClass(Configuration.java:1746)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.Groups.<init>(Groups.java:55)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.Groups.getUserToGroupsMappingService(Groups.java:182)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:235)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:214)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.getLoginUser(UserGroupInformation.java:669)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:571)[0m
+[0m[[31merror[0m] [0morg.apache.spark.util.Utils$$anonfun$getCurrentUserName$1.apply(Utils.scala:2245)[0m
+[0m[[31merror[0m] [0morg.apache.spark.util.Utils$$anonfun$getCurrentUserName$1.apply(Utils.scala:2245)[0m
+[0m[[31merror[0m] [0morg.apache.spark.util.Utils$.getCurrentUserName(Utils.scala:2245)[0m
+[0m[[31merror[0m] [0morg.apache.spark.SparkContext.<init>(SparkContext.scala:297)[0m
+[0m[[31merror[0m] [0morg.apache.spark.SparkContext$.getOrCreate(SparkContext.scala:2256)[0m
+[0m[[31merror[0m] [0morg.apache.spark.sql.SparkSession$Builder$$anonfun$8.apply(SparkSession.scala:831)[0m
+[0m[[31merror[0m] [0morg.apache.spark.sql.SparkSession$Builder$$anonfun$8.apply(SparkSession.scala:823)[0m
+[0m[[31merror[0m] [0morg.apache.spark.sql.SparkSession$Builder.getOrCreate(SparkSession.scala:823)[0m
+[0m[[31merror[0m] [0mit.gov.daf.ingestion.std.SparkCntx$class.foreach(IngestionStdSpec.scala:38)[0m
+[0m[[31merror[0m] [0mit.gov.daf.ingestion.std.IngestionStdSpec.foreach(IngestionStdSpec.scala:9)[0m
+[0m[[31merror[0m] [0mCAUSED BY[0m
+[0m[[31merror[0m] [0m java.lang.RuntimeException: class org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback not org.apache.hadoop.security.GroupMappingServiceProvider (Configuration.java:1746)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.conf.Configuration.getClass(Configuration.java:1746)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.Groups.<init>(Groups.java:55)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.Groups.getUserToGroupsMappingService(Groups.java:182)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:235)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:214)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.getLoginUser(UserGroupInformation.java:669)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:571)[0m
+[0m[[31merror[0m] [0morg.apache.spark.util.Utils$$anonfun$getCurrentUserName$1.apply(Utils.scala:2245)[0m
+[0m[[31merror[0m] [0morg.apache.spark.util.Utils$$anonfun$getCurrentUserName$1.apply(Utils.scala:2245)[0m
+[0m[[31merror[0m] [0morg.apache.spark.util.Utils$.getCurrentUserName(Utils.scala:2245)[0m
+[0m[[31merror[0m] [0morg.apache.spark.SparkContext.<init>(SparkContext.scala:297)[0m
+[0m[[31merror[0m] [0morg.apache.spark.SparkContext$.getOrCreate(SparkContext.scala:2256)[0m
+[0m[[31merror[0m] [0morg.apache.spark.sql.SparkSession$Builder$$anonfun$8.apply(SparkSession.scala:831)[0m
+[0m[[31merror[0m] [0morg.apache.spark.sql.SparkSession$Builder$$anonfun$8.apply(SparkSession.scala:823)[0m
+[0m[[31merror[0m] [0morg.apache.spark.sql.SparkSession$Builder.getOrCreate(SparkSession.scala:823)[0m
+[0m[[31merror[0m] [0mit.gov.daf.ingestion.std.SparkCntx$class.foreach(IngestionStdSpec.scala:38)[0m
+[0m[[31merror[0m] [0mit.gov.daf.ingestion.std.IngestionStdSpec.foreach(IngestionStdSpec.scala:9)[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[31merror[0m] [0m[31m![0m Ingestion->dataset_loadDF works: [0m
+[0m[[31merror[0m] [0m java.lang.RuntimeException: java.lang.RuntimeException: class org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback not org.apache.hadoop.security.GroupMappingServiceProvider (Configuration.java:1752)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.conf.Configuration.getClass(Configuration.java:1752)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.Groups.<init>(Groups.java:55)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.Groups.getUserToGroupsMappingService(Groups.java:182)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:235)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:214)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.getLoginUser(UserGroupInformation.java:669)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:571)[0m
+[0m[[31merror[0m] [0morg.apache.spark.util.Utils$$anonfun$getCurrentUserName$1.apply(Utils.scala:2245)[0m
+[0m[[31merror[0m] [0morg.apache.spark.util.Utils$$anonfun$getCurrentUserName$1.apply(Utils.scala:2245)[0m
+[0m[[31merror[0m] [0morg.apache.spark.util.Utils$.getCurrentUserName(Utils.scala:2245)[0m
+[0m[[31merror[0m] [0morg.apache.spark.SparkContext.<init>(SparkContext.scala:297)[0m
+[0m[[31merror[0m] [0morg.apache.spark.SparkContext$.getOrCreate(SparkContext.scala:2256)[0m
+[0m[[31merror[0m] [0morg.apache.spark.sql.SparkSession$Builder$$anonfun$8.apply(SparkSession.scala:831)[0m
+[0m[[31merror[0m] [0morg.apache.spark.sql.SparkSession$Builder$$anonfun$8.apply(SparkSession.scala:823)[0m
+[0m[[31merror[0m] [0morg.apache.spark.sql.SparkSession$Builder.getOrCreate(SparkSession.scala:823)[0m
+[0m[[31merror[0m] [0mit.gov.daf.ingestion.std.SparkCntx$class.foreach(IngestionStdSpec.scala:38)[0m
+[0m[[31merror[0m] [0mit.gov.daf.ingestion.std.IngestionStdSpec.foreach(IngestionStdSpec.scala:9)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.conf.Configuration.getClass(Configuration.java:1746)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.Groups.<init>(Groups.java:55)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.Groups.getUserToGroupsMappingService(Groups.java:182)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:235)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:214)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.getLoginUser(UserGroupInformation.java:669)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:571)[0m
+[0m[[31merror[0m] [0morg.apache.spark.util.Utils$$anonfun$getCurrentUserName$1.apply(Utils.scala:2245)[0m
+[0m[[31merror[0m] [0morg.apache.spark.util.Utils$$anonfun$getCurrentUserName$1.apply(Utils.scala:2245)[0m
+[0m[[31merror[0m] [0morg.apache.spark.util.Utils$.getCurrentUserName(Utils.scala:2245)[0m
+[0m[[31merror[0m] [0morg.apache.spark.SparkContext.<init>(SparkContext.scala:297)[0m
+[0m[[31merror[0m] [0morg.apache.spark.SparkContext$.getOrCreate(SparkContext.scala:2256)[0m
+[0m[[31merror[0m] [0morg.apache.spark.sql.SparkSession$Builder$$anonfun$8.apply(SparkSession.scala:831)[0m
+[0m[[31merror[0m] [0morg.apache.spark.sql.SparkSession$Builder$$anonfun$8.apply(SparkSession.scala:823)[0m
+[0m[[31merror[0m] [0morg.apache.spark.sql.SparkSession$Builder.getOrCreate(SparkSession.scala:823)[0m
+[0m[[31merror[0m] [0mit.gov.daf.ingestion.std.SparkCntx$class.foreach(IngestionStdSpec.scala:38)[0m
+[0m[[31merror[0m] [0mit.gov.daf.ingestion.std.IngestionStdSpec.foreach(IngestionStdSpec.scala:9)[0m
+[0m[[31merror[0m] [0mCAUSED BY[0m
+[0m[[31merror[0m] [0m java.lang.RuntimeException: class org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback not org.apache.hadoop.security.GroupMappingServiceProvider (Configuration.java:1746)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.conf.Configuration.getClass(Configuration.java:1746)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.Groups.<init>(Groups.java:55)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.Groups.getUserToGroupsMappingService(Groups.java:182)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:235)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:214)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.getLoginUser(UserGroupInformation.java:669)[0m
+[0m[[31merror[0m] [0morg.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:571)[0m
+[0m[[31merror[0m] [0morg.apache.spark.util.Utils$$anonfun$getCurrentUserName$1.apply(Utils.scala:2245)[0m
+[0m[[31merror[0m] [0morg.apache.spark.util.Utils$$anonfun$getCurrentUserName$1.apply(Utils.scala:2245)[0m
+[0m[[31merror[0m] [0morg.apache.spark.util.Utils$.getCurrentUserName(Utils.scala:2245)[0m
+[0m[[31merror[0m] [0morg.apache.spark.SparkContext.<init>(SparkContext.scala:297)[0m
+[0m[[31merror[0m] [0morg.apache.spark.SparkContext$.getOrCreate(SparkContext.scala:2256)[0m
+[0m[[31merror[0m] [0morg.apache.spark.sql.SparkSession$Builder$$anonfun$8.apply(SparkSession.scala:831)[0m
+[0m[[31merror[0m] [0morg.apache.spark.sql.SparkSession$Builder$$anonfun$8.apply(SparkSession.scala:823)[0m
+[0m[[31merror[0m] [0morg.apache.spark.sql.SparkSession$Builder.getOrCreate(SparkSession.scala:823)[0m
+[0m[[31merror[0m] [0mit.gov.daf.ingestion.std.SparkCntx$class.foreach(IngestionStdSpec.scala:38)[0m
+[0m[[31merror[0m] [0mit.gov.daf.ingestion.std.IngestionStdSpec.foreach(IngestionStdSpec.scala:9)[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mTotal for specification IngestionStdSpec[0m
+[0m[[0minfo[0m] [0m[36mFinished in 619 ms[0m[0m
+[0m[[0minfo[0m] [0m[36m[0m[36m2 examples, 0 failure, 2 errors[0m[0m
+[0m[[0minfo[0m] [0m[0m
