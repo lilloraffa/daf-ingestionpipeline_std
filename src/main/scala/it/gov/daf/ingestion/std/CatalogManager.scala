@@ -2,13 +2,13 @@ package it.gov.daf.ingestion.std
 
 class CatalogManager(ds_uri: String) extends Serializable {
 
-  val data_schema = DataMock.getCatalogMetadata(ds_uri, "dataschema")
+  val data_schema: Map[String, Any] = DataMock.getCatalogMetadata(ds_uri, "dataschema")
 
-  val colName =
+  val colName: Seq[String] =
     data_schema("fields").asInstanceOf[Seq[Map[String, Object]]]
       .map(x => x("name").asInstanceOf[String])
 
-  val ontoTag =
+  val ontoTag: Map[String, String] =
     data_schema("fields").asInstanceOf[Seq[Map[String, Object]]]
       .map{x =>
         val metadata = x.asInstanceOf[Map[String, Object]].get("metadata")

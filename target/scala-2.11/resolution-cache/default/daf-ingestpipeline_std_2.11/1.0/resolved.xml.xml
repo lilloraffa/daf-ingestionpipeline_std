@@ -4,7 +4,7 @@
 		module="daf-ingestpipeline_std_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170918193551"
+		publication="20171031103803"
 	>
 		<description>
 		daf-ingestpipeline_std

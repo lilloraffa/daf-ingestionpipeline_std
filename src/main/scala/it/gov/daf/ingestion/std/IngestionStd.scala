@@ -15,10 +15,16 @@ class IngestionStd {
 
     val dataCatMgr = new CatalogManager(ds_uri)
     val df_data = DatasetLoader.dataset_loadDF(ds_uri, spark)
+
+    //[col_name, (semantic_tag, hierarchy, voc name, voc col)]
     val ontoTagHiercRaw: Seq[(String, (String, List[String], String, String))] = dataCatMgr.ontoTag.map{x =>
       x._1 -> (x._2, OntoMgr.getOntoInfoField(x._2)("hierc").asInstanceOf[List[String]], OntoMgr.getOntoInfoField(x._2)("voc").asInstanceOf[String], OntoMgr.getOntoInfoField(x._2)("voc_col").asInstanceOf[String])
     }.toSeq
-    val dictInvolved = ontoTagHiercRaw.map(x => x._2._3).groupBy(x=>x).map(x=>(x._1 -> x._2.size))
+
+
+    //
+    val dictInvolved: Map[String, Int] = ontoTagHiercRaw.map(x => x._2._3).groupBy(x=>x).map(x=>(x._1 -> x._2.size))
+
     val ontoTagHierc = ontoTagHiercRaw.sortBy(x=> (dictInvolved(x._2._3), x._2._3, x._2._2.length)).to[List]
 
     val df_final = df_data match {
