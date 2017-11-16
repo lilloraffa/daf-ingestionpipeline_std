@@ -17,6 +17,5 @@ object IngestionProc {
     ing.init("ds_luoghi", spark)
     spark.stop()
 
-
   }
 }
