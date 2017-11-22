@@ -1,5 +1,6 @@
 package it.gov.daf.ingestion.std.it.gov.daf.ingestion.std.lib
 
+import ingestion.pipelines.lib.TextMatcher
 import org.specs2._
 
 class TextMatcherSpec extends mutable.Specification{

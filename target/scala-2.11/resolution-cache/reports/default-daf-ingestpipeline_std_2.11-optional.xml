@@ -4,10 +4,10 @@
 	<info
 		organisation="default"
 		module="daf-ingestpipeline_std_2.11"
-		revision="1.0"
+		revision="1.0-SNAPSHOT"
 		conf="optional"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20171031103803"/>
+		date="20171117160742"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

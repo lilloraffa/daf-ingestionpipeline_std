@@ -4,7 +4,7 @@
 		module="daf-ingestpipeline_std-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20171031103759"
+		publication="20171117160726"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

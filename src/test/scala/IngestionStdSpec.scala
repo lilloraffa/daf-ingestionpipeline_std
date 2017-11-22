@@ -1,5 +1,6 @@
 package it.gov.daf.ingestion.std
 
+import ingestion.pipelines.IngestionStd
 import org.specs2._
 import org.specs2.specification.ForEach
 import org.apache.spark.sql.{DataFrame, Dataset, SparkSession}
@@ -8,13 +9,13 @@ import org.specs2.execute.AsResult
 
 class IngestionStdSpec extends mutable.Specification with SparkCntx {
 
-
+/*
   "Ingestion->Init works: " >> {spark: SparkSession =>
     val ing = new IngestionStd()
     //
     ing.init("ds_luoghi", spark) must beEqualTo("OK")
   }
-
+*/
 
 }
 
