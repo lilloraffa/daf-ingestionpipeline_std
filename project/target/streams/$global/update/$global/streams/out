@@ -6629,7 +6629,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3340ms :: artifacts dl 68ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1735ms :: artifacts dl 46ms[0m
 [0m[[0mdebug[0m] [0m	report for default#daf-ingestpipeline_std-build;0.1-SNAPSHOT compile produced in /Users/lilloraffa/Development/teamdgt/daf/daf-ingestpipeline_std/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-daf-ingestpipeline_std-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#daf-ingestpipeline_std-build;0.1-SNAPSHOT runtime produced in /Users/lilloraffa/Development/teamdgt/daf/daf-ingestpipeline_std/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-daf-ingestpipeline_std-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#daf-ingestpipeline_std-build;0.1-SNAPSHOT test produced in /Users/lilloraffa/Development/teamdgt/daf/daf-ingestpipeline_std/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-daf-ingestpipeline_std-build-test.xml[0m
@@ -6643,5 +6643,5 @@
 [0m[[0mdebug[0m] [0m	report for default#daf-ingestpipeline_std-build;0.1-SNAPSHOT docs produced in /Users/lilloraffa/Development/teamdgt/daf/daf-ingestpipeline_std/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-daf-ingestpipeline_std-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#daf-ingestpipeline_std-build;0.1-SNAPSHOT pom produced in /Users/lilloraffa/Development/teamdgt/daf/daf-ingestpipeline_std/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-daf-ingestpipeline_std-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#daf-ingestpipeline_std-build;0.1-SNAPSHOT scala-tool produced in /Users/lilloraffa/Development/teamdgt/daf/daf-ingestpipeline_std/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-daf-ingestpipeline_std-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (3340ms resolve - 68ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (1735ms resolve - 46ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
